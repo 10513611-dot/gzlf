@@ -1,0 +1,11 @@
+{
+  "asset_id": "gzlf:wrmfw",
+  "height": 1,
+  "width": 5,
+  "title": {
+    "translate": "painting.gzlf.wrmfw.title"
+  },
+  "author": {
+    "translate": "painting.gzlf.wrmfw.author"
+  }
+}

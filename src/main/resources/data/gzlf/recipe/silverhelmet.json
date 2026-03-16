@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "gzlf:silveringot"
+  },
+  "result": {
+    "id": "gzlf:silverarmor_helmet",
+    "count": 1
+  }
+}

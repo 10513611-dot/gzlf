@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "gzlf:block/ginsenglog",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "gzlf:block/ginsenglog"
+    },
+    "axis=z": {
+      "model": "gzlf:block/ginsenglog",
+      "x": 90
+    }
+  }
+}

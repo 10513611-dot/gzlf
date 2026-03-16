@@ -1,0 +1,58 @@
+package net.mcreator.gzlf.block;
+
+import net.minecraft.world.level.material.PushReaction;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.grower.TreeGrower;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.SaplingBlock;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.tags.TagKey;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.chunk.ChunkSectionLayer;
+
+import net.mcreator.gzlf.init.GzlfModBlocks;
+
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.BlockRenderLayerMap;
+import net.fabricmc.api.Environment;
+import net.fabricmc.api.EnvType;
+
+import java.util.Optional;
+
+public class GinsengsaplingBlock extends SaplingBlock {
+	public static final TreeGrower TREE_GROWER = new TreeGrower("ginsengsapling", Optional.empty(), Optional.of(getFeatureKey("gzlf:ginseng")), Optional.empty());
+
+	public GinsengsaplingBlock(BlockBehaviour.Properties properties) {
+		super(TREE_GROWER, properties.mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).noCollission().ignitedByLava()
+				.offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		FlammableBlockRegistry.getDefaultInstance().add(this, 100, 60);
+	}
+
+	@Environment(EnvType.CLIENT)
+	public static void registerRenderLayer() {
+		BlockRenderLayerMap.putBlock(GzlfModBlocks.GINSENGSAPLING, ChunkSectionLayer.CUTOUT);
+	}
+
+	@Override
+	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
+		return groundState.is(TagKey.create(Registries.BLOCK, ResourceLocation.parse("minecraft:dirt")));
+	}
+
+	@Override
+	public boolean canSurvive(BlockState blockstate, LevelReader worldIn, BlockPos pos) {
+		BlockPos blockpos = pos.below();
+		BlockState groundState = worldIn.getBlockState(blockpos);
+		return this.mayPlaceOn(groundState, worldIn, blockpos);
+	}
+
+	private static ResourceKey<ConfiguredFeature<?, ?>> getFeatureKey(String feature) {
+		return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.parse(feature));
+	}
+}

@@ -1,0 +1,137 @@
+/*
+ *	MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.gzlf.init;
+
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.Registry;
+
+import net.mcreator.gzlf.GzlfMod;
+
+public class GzlfModSounds {
+	public static SoundEvent MUSIC_DISC_JLCJ;
+	public static SoundEvent MUSIC_DISC_FJZJ;
+	public static SoundEvent MUSIC_DISC_AUAG;
+	public static SoundEvent MUSIC_DISC_DNH;
+	public static SoundEvent MUSIC_DISC_YLWJ;
+	public static SoundEvent MUSIC_DISC_DENGJIE;
+	public static SoundEvent MUSIC_DISC_JBY;
+	public static SoundEvent MUSIC_DISC_JRZ;
+	public static SoundEvent MUSIC_DISC_JIASHA;
+	public static SoundEvent MUSIC_DISC_LIMING;
+	public static SoundEvent MUSIC_DISC_LLT;
+	public static SoundEvent MUSIC_DISC_MASTER;
+	public static SoundEvent MUSIC_DISC_PRINCESS;
+	public static SoundEvent MUSIC_DISC_QIANFEN;
+	public static SoundEvent MUSIC_DISC_TTL;
+	public static SoundEvent MUSIC_DISC_YYDYZ;
+	public static SoundEvent MUSIC_DISC_WIND;
+	public static SoundEvent MUSIC_DISC_MORTAL;
+	public static SoundEvent MUSIC_DISC_YYH;
+	public static SoundEvent MUSIC_DISC_HUAIGU;
+	public static SoundEvent MUSIC_DISC_SBML;
+	public static SoundEvent MUSIC_DISC_QINGLONG;
+	public static SoundEvent MUSIC_DISC_QINGXIAN;
+	public static SoundEvent MUSIC_DISC_BE24;
+	public static SoundEvent MUSIC_DISC_BYXTZ;
+	public static SoundEvent MUSIC_DISC_DIAO;
+	public static SoundEvent MUSIC_DISC_FENGSHEN;
+	public static SoundEvent MUSIC_DISC_GU;
+	public static SoundEvent MUSIC_DISC_HNCGM;
+	public static SoundEvent MUSIC_DISC_IKLS;
+	public static SoundEvent MUSIC_DISC_JNTTW;
+	public static SoundEvent MUSIC_DISC_MASAID;
+	public static SoundEvent MUSIC_DISC_MIBEI;
+	public static SoundEvent MUSIC_DISC_MRMX;
+	public static SoundEvent MUSIC_DISC_NHY;
+	public static SoundEvent MUSIC_DISC_BAIGU;
+	public static SoundEvent MUSIC_DISC_PGY;
+	public static SoundEvent MUSIC_DISC_RSG;
+	public static SoundEvent MUSIC_DISC_SQ23;
+	public static SoundEvent MUSIC_DISC_SXJCG;
+	public static SoundEvent MUSIC_DISC_WSZQW;
+	public static SoundEvent MUSIC_DISC_YHC;
+	public static SoundEvent MUSIC_DISC_YINGWU;
+	public static SoundEvent MUSIC_DISC_ZGT;
+	public static SoundEvent MUSIC_DISC_CHI;
+	public static SoundEvent MUSIC_DISC_MENGYA;
+	public static SoundEvent MUSIC_DISC_ZXHDMX;
+	public static SoundEvent MUSIC_DISC_XIA;
+	public static SoundEvent STBF;
+	public static SoundEvent MUSIC_DISC_B;
+	public static SoundEvent MUSIC_DISC_CHANGSHENG;
+	public static SoundEvent CCRSG;
+	public static SoundEvent HETUI;
+	public static SoundEvent GZLF;
+	public static SoundEvent KFZL;
+	public static SoundEvent GZLF1;
+	public static SoundEvent GZLF2;
+	public static SoundEvent COMPOSER;
+
+	public static void load() {
+		MUSIC_DISC_JLCJ = register("music_disc_jlcj", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_jlcj")));
+		MUSIC_DISC_FJZJ = register("music_disc_fjzj", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_fjzj")));
+		MUSIC_DISC_AUAG = register("music_disc_auag", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_auag")));
+		MUSIC_DISC_DNH = register("music_disc_dnh", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_dnh")));
+		MUSIC_DISC_YLWJ = register("music_disc_ylwj", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_ylwj")));
+		MUSIC_DISC_DENGJIE = register("music_disc_dengjie", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_dengjie")));
+		MUSIC_DISC_JBY = register("music_disc_jby", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_jby")));
+		MUSIC_DISC_JRZ = register("music_disc_jrz", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_jrz")));
+		MUSIC_DISC_JIASHA = register("music_disc_jiasha", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_jiasha")));
+		MUSIC_DISC_LIMING = register("music_disc_liming", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_liming")));
+		MUSIC_DISC_LLT = register("music_disc_llt", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_llt")));
+		MUSIC_DISC_MASTER = register("music_disc_master", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_master")));
+		MUSIC_DISC_PRINCESS = register("music_disc_princess", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_princess")));
+		MUSIC_DISC_QIANFEN = register("music_disc_qianfen", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_qianfen")));
+		MUSIC_DISC_TTL = register("music_disc_ttl", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_ttl")));
+		MUSIC_DISC_YYDYZ = register("music_disc_yydyz", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_yydyz")));
+		MUSIC_DISC_WIND = register("music_disc_wind", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_wind")));
+		MUSIC_DISC_MORTAL = register("music_disc_mortal", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_mortal")));
+		MUSIC_DISC_YYH = register("music_disc_yyh", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_yyh")));
+		MUSIC_DISC_HUAIGU = register("music_disc_huaigu", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_huaigu")));
+		MUSIC_DISC_SBML = register("music_disc_sbml", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_sbml")));
+		MUSIC_DISC_QINGLONG = register("music_disc_qinglong", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_qinglong")));
+		MUSIC_DISC_QINGXIAN = register("music_disc_qingxian", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_qingxian")));
+		MUSIC_DISC_BE24 = register("music_disc_be24", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_be24")));
+		MUSIC_DISC_BYXTZ = register("music_disc_byxtz", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_byxtz")));
+		MUSIC_DISC_DIAO = register("music_disc_diao", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_diao")));
+		MUSIC_DISC_FENGSHEN = register("music_disc_fengshen", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_fengshen")));
+		MUSIC_DISC_GU = register("music_disc_gu", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_gu")));
+		MUSIC_DISC_HNCGM = register("music_disc_hncgm", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_hncgm")));
+		MUSIC_DISC_IKLS = register("music_disc_ikls", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_ikls")));
+		MUSIC_DISC_JNTTW = register("music_disc_jnttw", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_jnttw")));
+		MUSIC_DISC_MASAID = register("music_disc_masaid", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_masaid")));
+		MUSIC_DISC_MIBEI = register("music_disc_mibei", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_mibei")));
+		MUSIC_DISC_MRMX = register("music_disc_mrmx", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_mrmx")));
+		MUSIC_DISC_NHY = register("music_disc_nhy", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_nhy")));
+		MUSIC_DISC_BAIGU = register("music_disc_baigu", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_baigu")));
+		MUSIC_DISC_PGY = register("music_disc_pgy", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_pgy")));
+		MUSIC_DISC_RSG = register("music_disc_rsg", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_rsg")));
+		MUSIC_DISC_SQ23 = register("music_disc_sq23", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_sq23")));
+		MUSIC_DISC_SXJCG = register("music_disc_sxjcg", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_sxjcg")));
+		MUSIC_DISC_WSZQW = register("music_disc_wszqw", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_wszqw")));
+		MUSIC_DISC_YHC = register("music_disc_yhc", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_yhc")));
+		MUSIC_DISC_YINGWU = register("music_disc_yingwu", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_yingwu")));
+		MUSIC_DISC_ZGT = register("music_disc_zgt", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_zgt")));
+		MUSIC_DISC_CHI = register("music_disc_chi", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_chi")));
+		MUSIC_DISC_MENGYA = register("music_disc_mengya", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_mengya")));
+		MUSIC_DISC_ZXHDMX = register("music_disc_zxhdmx", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_zxhdmx")));
+		MUSIC_DISC_XIA = register("music_disc_xia", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_xia")));
+		STBF = register("stbf", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "stbf")));
+		MUSIC_DISC_B = register("music_disc_b", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_b")));
+		MUSIC_DISC_CHANGSHENG = register("music_disc_changsheng", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_changsheng")));
+		CCRSG = register("ccrsg", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "ccrsg")));
+		HETUI = register("hetui", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "hetui")));
+		GZLF = register("gzlf", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "gzlf")));
+		KFZL = register("kfzl", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "kfzl")));
+		GZLF1 = register("gzlf1", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "gzlf1")));
+		GZLF2 = register("gzlf2", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "gzlf2")));
+		COMPOSER = register("composer", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "composer")));
+	}
+
+	private static SoundEvent register(String registryname, SoundEvent element) {
+		return Registry.register(BuiltInRegistries.SOUND_EVENT, ResourceLocation.fromNamespaceAndPath(GzlfMod.MODID, registryname), element);
+	}
+}

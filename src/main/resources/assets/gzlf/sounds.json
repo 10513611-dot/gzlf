@@ -1,0 +1,466 @@
+{
+  "music_disc_jlcj": {
+    "sounds": [
+      {
+        "name": "gzlf:jlcj",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_fjzj": {
+    "sounds": [
+      {
+        "name": "gzlf:fjzj",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_auag": {
+    "sounds": [
+      {
+        "name": "gzlf:auag",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_dnh": {
+    "sounds": [
+      {
+        "name": "gzlf:dnh",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_ylwj": {
+    "sounds": [
+      {
+        "name": "gzlf:ylwj",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_dengjie": {
+    "sounds": [
+      {
+        "name": "gzlf:dengjie",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_jby": {
+    "sounds": [
+      {
+        "name": "gzlf:jby",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_jrz": {
+    "sounds": [
+      {
+        "name": "gzlf:jrz",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_jiasha": {
+    "sounds": [
+      {
+        "name": "gzlf:jiasha",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_liming": {
+    "sounds": [
+      {
+        "name": "gzlf:liming",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_llt": {
+    "sounds": [
+      {
+        "name": "gzlf:llt",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_master": {
+    "sounds": [
+      {
+        "name": "gzlf:master",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_princess": {
+    "sounds": [
+      {
+        "name": "gzlf:princess",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_qianfen": {
+    "sounds": [
+      {
+        "name": "gzlf:qianfen",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_ttl": {
+    "sounds": [
+      {
+        "name": "gzlf:ttl",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_yydyz": {
+    "sounds": [
+      {
+        "name": "gzlf:yydyz",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_wind": {
+    "sounds": [
+      {
+        "name": "gzlf:wind",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_mortal": {
+    "sounds": [
+      {
+        "name": "gzlf:mortal",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_yyh": {
+    "sounds": [
+      {
+        "name": "gzlf:yyh",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_huaigu": {
+    "sounds": [
+      {
+        "name": "gzlf:huaigu",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_sbml": {
+    "sounds": [
+      {
+        "name": "gzlf:sbml",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_qinglong": {
+    "sounds": [
+      {
+        "name": "gzlf:qinglong",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_qingxian": {
+    "sounds": [
+      {
+        "name": "gzlf:qingxian",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_be24": {
+    "sounds": [
+      {
+        "name": "gzlf:be24",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_byxtz": {
+    "sounds": [
+      {
+        "name": "gzlf:byxtz",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_diao": {
+    "sounds": [
+      {
+        "name": "gzlf:diao",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_fengshen": {
+    "sounds": [
+      {
+        "name": "gzlf:fengshen",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_gu": {
+    "sounds": [
+      {
+        "name": "gzlf:gu",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_hncgm": {
+    "sounds": [
+      {
+        "name": "gzlf:hncgm",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_ikls": {
+    "sounds": [
+      {
+        "name": "gzlf:ikls",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_jnttw": {
+    "sounds": [
+      {
+        "name": "gzlf:jnttw",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_masaid": {
+    "sounds": [
+      {
+        "name": "gzlf:masaid",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_mibei": {
+    "sounds": [
+      {
+        "name": "gzlf:mibei",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_mrmx": {
+    "sounds": [
+      {
+        "name": "gzlf:mrmx",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_nhy": {
+    "sounds": [
+      {
+        "name": "gzlf:nhy",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_baigu": {
+    "sounds": [
+      {
+        "name": "gzlf:baigu",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_pgy": {
+    "sounds": [
+      {
+        "name": "gzlf:pgy",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_rsg": {
+    "sounds": [
+      {
+        "name": "gzlf:rsg",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_sq23": {
+    "sounds": [
+      {
+        "name": "gzlf:sq23",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_sxjcg": {
+    "sounds": [
+      {
+        "name": "gzlf:sxjcg",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_wszqw": {
+    "sounds": [
+      {
+        "name": "gzlf:wszqw",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_yhc": {
+    "sounds": [
+      {
+        "name": "gzlf:yhc",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_yingwu": {
+    "sounds": [
+      {
+        "name": "gzlf:yingwu",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_zgt": {
+    "sounds": [
+      {
+        "name": "gzlf:zgt",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_chi": {
+    "sounds": [
+      {
+        "name": "gzlf:chi",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_mengya": {
+    "sounds": [
+      {
+        "name": "gzlf:mengya",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_zxhdmx": {
+    "sounds": [
+      {
+        "name": "gzlf:zxhdmx",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_xia": {
+    "sounds": [
+      {
+        "name": "gzlf:xia",
+        "stream": true
+      }
+    ]
+  },
+  "stbf": {
+    "sounds": [
+      {
+        "name": "gzlf:stbf",
+        "stream": false
+      }
+    ]
+  },
+  "music_disc_b": {
+    "sounds": [
+      {
+        "name": "gzlf:b",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_changsheng": {
+    "sounds": [
+      {
+        "name": "gzlf:changsheng",
+        "stream": true
+      }
+    ]
+  },
+  "ccrsg": {
+    "sounds": [
+      {
+        "name": "gzlf:ccrsg",
+        "stream": false
+      }
+    ]
+  },
+  "hetui": {
+    "sounds": [
+      {
+        "name": "gzlf:hetui",
+        "stream": false
+      }
+    ]
+  },
+  "gzlf": {
+    "sounds": [
+      {
+        "name": "gzlf:gzlf",
+        "stream": false
+      }
+    ]
+  },
+  "kfzl": {
+    "sounds": [
+      {
+        "name": "gzlf:kfzl",
+        "stream": false
+      }
+    ]
+  },
+  "gzlf1": {
+    "sounds": [
+      {
+        "name": "gzlf:gzlf1",
+        "stream": false
+      }
+    ]
+  },
+  "gzlf2": {
+    "sounds": [
+      {
+        "name": "gzlf:gzlf2",
+        "stream": false
+      }
+    ]
+  },
+  "composer": {
+    "sounds": [
+      {
+        "name": "gzlf:composer",
+        "stream": false
+      }
+    ]
+  }
+}

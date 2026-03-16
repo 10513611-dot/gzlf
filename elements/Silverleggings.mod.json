@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Silveringot"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Silveringot"
+      },
+      {
+        "value": "CUSTOM:Silveringot"
+      },
+      {
+        "value": "CUSTOM:Silveringot"
+      },
+      {
+        "value": "CUSTOM:Silveringot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Silveringot"
+      },
+      {
+        "value": "CUSTOM:Silveringot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Silveringot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Silverarmor.legs"
+    },
+    "name": "silverleggings",
+    "namespace": "mod"
+  }
+}

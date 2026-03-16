@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.gzlf.musicdiscqingxian.desc"
+  },
+  "length_in_seconds": 197,
+  "sound_event": "gzlf:music_disc_qingxian"
+}

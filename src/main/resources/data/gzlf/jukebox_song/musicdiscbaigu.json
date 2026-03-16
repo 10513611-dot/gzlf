@@ -1,0 +1,8 @@
+{
+  "comparator_output": 8,
+  "description": {
+    "translate": "item.gzlf.musicdiscbaigu.desc"
+  },
+  "length_in_seconds": 206,
+  "sound_event": "gzlf:music_disc_baigu"
+}

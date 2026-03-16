@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gzlf:block/silver_block",
+    "up": "gzlf:block/silver_block",
+    "north": "gzlf:block/silver_block",
+    "east": "gzlf:block/silver_block",
+    "south": "gzlf:block/silver_block",
+    "west": "gzlf:block/silver_block",
+    "particle": "gzlf:block/silver_block"
+  },
+  "render_type": "solid"
+}

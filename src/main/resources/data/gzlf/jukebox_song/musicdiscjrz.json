@@ -1,0 +1,8 @@
+{
+  "comparator_output": 3,
+  "description": {
+    "translate": "item.gzlf.musicdiscjrz.desc"
+  },
+  "length_in_seconds": 158,
+  "sound_event": "gzlf:music_disc_jrz"
+}

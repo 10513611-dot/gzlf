@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "gzlf:musicdiscjby"
+  },
+  "result": {
+    "id": "gzlf:jbyarmor_boots",
+    "count": 1
+  }
+}

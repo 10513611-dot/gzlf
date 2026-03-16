@@ -1,0 +1,8 @@
+{
+  "comparator_output": 5,
+  "description": {
+    "translate": "item.gzlf.musicdiscmengya.desc"
+  },
+  "length_in_seconds": 235,
+  "sound_event": "gzlf:music_disc_mengya"
+}

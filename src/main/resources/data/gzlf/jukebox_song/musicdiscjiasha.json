@@ -1,0 +1,8 @@
+{
+  "comparator_output": 10,
+  "description": {
+    "translate": "item.gzlf.musicdiscjiasha.desc"
+  },
+  "length_in_seconds": 150,
+  "sound_event": "gzlf:music_disc_jiasha"
+}

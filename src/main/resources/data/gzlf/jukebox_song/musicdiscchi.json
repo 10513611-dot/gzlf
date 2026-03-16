@@ -1,0 +1,8 @@
+{
+  "comparator_output": 9,
+  "description": {
+    "translate": "item.gzlf.musicdiscchi.desc"
+  },
+  "length_in_seconds": 173,
+  "sound_event": "gzlf:music_disc_chi"
+}

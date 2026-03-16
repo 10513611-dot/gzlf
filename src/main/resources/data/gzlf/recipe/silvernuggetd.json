@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "gzlf:silveringot"
+  ],
+  "result": {
+    "id": "gzlf:silvernugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "gzlf:musicdiscjby"
+  },
+  "result": {
+    "id": "gzlf:jbyarmor_leggings",
+    "count": 1
+  }
+}

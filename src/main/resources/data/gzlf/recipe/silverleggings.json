@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "gzlf:silveringot"
+  },
+  "result": {
+    "id": "gzlf:silverarmor_leggings",
+    "count": 1
+  }
+}

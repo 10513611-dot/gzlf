@@ -1,0 +1,8 @@
+{
+  "comparator_output": 2,
+  "description": {
+    "translate": "item.gzlf.musicdiscliming.desc"
+  },
+  "length_in_seconds": 188,
+  "sound_event": "gzlf:music_disc_liming"
+}

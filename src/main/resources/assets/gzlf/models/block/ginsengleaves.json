@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "gzlf:block/ginseng_leaves",
+    "particle": "gzlf:block/ginseng_leaves"
+  }
+}

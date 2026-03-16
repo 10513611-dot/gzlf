@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "gzlf:block/ginseng_log_top",
+    "top": "gzlf:block/ginseng_log_top",
+    "side": "gzlf:block/ginseng_log",
+    "overlay": "gzlf:block/ginseng_log",
+    "particle": "gzlf:block/ginseng_log_top"
+  },
+  "render_type": "solid"
+}

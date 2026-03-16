@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gzlf:silverarmor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "gzlf:silverarmor"
+      }
+    ]
+  }
+}

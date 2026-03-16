@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/gold_block",
+    "up": "minecraft:block/gold_block",
+    "north": "minecraft:block/gold_block",
+    "east": "minecraft:block/gold_block",
+    "south": "minecraft:block/gold_block",
+    "west": "minecraft:block/gold_block",
+    "particle": "gzlf:block/silver_block"
+  },
+  "render_type": "solid"
+}

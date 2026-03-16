@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Musicdiscjby"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Musicdiscjby"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Musicdiscjby"
+      },
+      {
+        "value": "CUSTOM:Musicdiscjby"
+      },
+      {
+        "value": "CUSTOM:Musicdiscjby"
+      },
+      {
+        "value": "CUSTOM:Musicdiscjby"
+      },
+      {
+        "value": "CUSTOM:Musicdiscjby"
+      },
+      {
+        "value": "CUSTOM:Musicdiscjby"
+      },
+      {
+        "value": "CUSTOM:Musicdiscjby"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Jbyarmor.body"
+    },
+    "name": "jbychest",
+    "namespace": "mod"
+  }
+}

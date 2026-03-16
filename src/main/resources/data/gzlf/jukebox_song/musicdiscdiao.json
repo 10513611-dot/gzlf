@@ -1,0 +1,8 @@
+{
+  "comparator_output": 9,
+  "description": {
+    "translate": "item.gzlf.musicdiscdiao.desc"
+  },
+  "length_in_seconds": 237,
+  "sound_event": "gzlf:music_disc_diao"
+}

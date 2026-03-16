@@ -1,0 +1,8 @@
+{
+  "comparator_output": 8,
+  "description": {
+    "translate": "item.gzlf.musicdiscqianfen.desc"
+  },
+  "length_in_seconds": 166,
+  "sound_event": "gzlf:music_disc_qianfen"
+}

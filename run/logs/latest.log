@@ -1,0 +1,168 @@
+[15:51:02] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[15:51:02] [main/INFO] (FabricLoader) Loading 50 mods:
+	- fabric-api 0.133.4+1.21.8
+	- fabric-api-base 0.5.0+cd8c0daa2c
+	- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
+	- fabric-biome-api-v1 16.0.11+946bf4c32c
+	- fabric-block-api-v1 1.1.3+946bf4c32c
+	- fabric-block-view-api-v2 1.0.31+946bf4c32c
+	- fabric-client-gametest-api-v1 4.2.5+8a98c3fc2c
+	- fabric-command-api-v2 2.3.1+52fff9ec2c
+	- fabric-content-registries-v0 10.1.0+c75de69d2c
+	- fabric-convention-tags-v1 2.1.41+7f945d5b2c
+	- fabric-convention-tags-v2 2.15.6+eb5df52f2c
+	- fabric-crash-report-info-v1 0.3.15+946bf4c32c
+	- fabric-data-attachment-api-v1 1.8.13+38b5f74e2c
+	- fabric-data-generation-api-v1 23.2.7+0b1ef9762c
+	- fabric-dimensions-v1 4.0.20+948fc79a2c
+	- fabric-entity-events-v1 2.1.2+c9e472732c
+	- fabric-events-interaction-v0 4.0.25+946bf4c32c
+	- fabric-game-rule-api-v1 1.0.73+c64c9c5b2c
+	- fabric-gametest-api-v1 3.1.10+39ce47f52c
+	- fabric-item-api-v1 11.5.0+02ce13f42c
+	- fabric-item-group-api-v1 4.2.14+c5f9bbc12c
+	- fabric-key-binding-api-v1 1.0.65+946bf4c32c
+	- fabric-lifecycle-events-v1 2.6.4+db4dfd852c
+	- fabric-loot-api-v2 3.0.56+3f89f5a52c
+	- fabric-loot-api-v3 2.0.3+946bf4c32c
+	- fabric-message-api-v1 6.1.2+946bf4c32c
+	- fabric-model-loading-api-v1 5.2.7+946bf4c32c
+	- fabric-networking-api-v1 5.0.3+4ddbf91b2c
+	- fabric-object-builder-api-v1 21.1.9+946bf4c32c
+	- fabric-particles-v1 4.1.9+946bf4c32c
+	- fabric-recipe-api-v1 8.1.16+946bf4c32c
+	- fabric-registry-sync-v0 6.1.29+946bf4c32c
+	- fabric-renderer-api-v1 7.0.4+208eed172c
+	- fabric-renderer-indigo 4.0.4+946bf4c32c
+	- fabric-rendering-fluids-v1 3.1.31+fa6cb72b2c
+	- fabric-rendering-v1 12.5.1+fbe231d52c
+	- fabric-resource-conditions-api-v1 5.0.25+98e6d6db2c
+	- fabric-resource-loader-v0 3.1.12+020423442c
+	- fabric-screen-api-v1 2.1.1+277ecf7d2c
+	- fabric-screen-handler-api-v1 1.3.138+946bf4c32c
+	- fabric-serialization-api-v1 1.0.0+fc0e5aba2c
+	- fabric-sound-api-v1 1.0.42+946bf4c32c
+	- fabric-tag-api-v1 1.2.2+946bf4c32c
+	- fabric-transfer-api-v1 6.0.6+946bf4c32c
+	- fabric-transitive-access-wideners-v1 6.5.0+c847ce762c
+	- fabricloader 0.17.2
+	- gzlf 1.0.0
+	- java 21
+	- minecraft 1.21.8
+	- mixinextras 0.5.0
+[15:51:03] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/10513/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/3e535042688d1265447e52ad86950b7d9678a5fa/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[15:51:03] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[15:51:03] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[15:51:04] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[15:51:06] [Datafixer Bootstrap/INFO] (Minecraft) 269 Datafixer optimizations took 545 milliseconds
+[15:51:12] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:51:12] [Render thread/INFO] (Minecraft) Setting user: Player347
+[15:51:12] [Render thread/INFO] (GzlfMod) Initializing GzlfMod
+[15:51:13] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[15:51:13] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[15:51:14] [Render thread/INFO] (Minecraft) Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[15:51:15] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-client-gametest-api-v1, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, gzlf
+[15:51:15] [Worker-Main-10/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[15:51:15] [Worker-Main-9/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[15:51:15] [Worker-Main-6/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[15:51:17] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[15:51:17] [Render thread/INFO] (Minecraft) Sound engine started
+[15:51:17] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[15:51:18] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[15:51:18] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:51:18] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:51:18] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[15:51:18] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[15:51:18] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[15:51:18] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15:51:18] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:51:18] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[15:51:18] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[15:51:18] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/paintings.png-atlas
+[15:51:18] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[15:51:22] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[15:51:24] [Render thread/INFO] (Minecraft) Loaded 1426 recipes
+[15:51:24] [Render thread/INFO] (Minecraft) Loaded 1539 advancements
+[15:51:25] [Render thread/INFO] (BiomeModificationImpl) Applied 130 biome modifications to 65 of 65 new biomes in 8.784 ms
+[15:51:25] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.8
+[15:51:25] [Server thread/INFO] (Minecraft) Generating keypair
+[15:51:26] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[15:51:26] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[15:51:26] [Render thread/INFO] (Minecraft) 准备生成区域中：0%
+[15:51:26] [Render thread/INFO] (Minecraft) Time elapsed: 912 ms
+[15:51:27] [Server thread/WARN] (TranslationConventionLogWarnings) 
+	Dev warning - Untranslated Item Tags detected. Please translate your item tags so other mods such as recipe viewers can properly display your tag's name.
+	The format desired is tag.item.<namespace>.<path> for the translation key with slashes in path turned into periods.
+	To disable this message, set this system property in your runs: `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=SILENCED`.
+	To see individual untranslated item tags found, set the system property to `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=VERBOSE`.
+	Default is `SHORT`.
+
+[15:51:27] [Server thread/WARN] (ConventionLogWarnings) 
+	Dev warning - Legacy Tags detected. Please migrate your old tags to our new format that follows better conventions!
+	See classes under net.fabricmc.fabric.api.tag.convention.v2 package for all tags.
+
+	NOTE: Many tags have been moved around or renamed. Some new ones were added so please review the new tags.
+	And make sure you follow tag conventions for new tags! The convention is `c` with nouns generally being plural and adjectives being singular.
+	You can disable this message by this system property to your runs: `-Dfabric-tag-conventions-v1.legacyTagWarning=SILENCED`.
+	To see individual legacy tags found, set the system property to `-Dfabric-tag-conventions-v1.legacyTagWarning=VERBOSE` instead. Default is `SHORT`.
+
+[15:51:27] [Server thread/INFO] (Minecraft) Changing view distance to 14, from 10
+[15:51:27] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[15:51:28] [Server thread/INFO] (Minecraft) Player347[local:E:0b270dd2] logged in with entity id 18 at (32.168598665344234, -42.20203227441119, 24.84941398173324)
+[15:51:28] [Server thread/INFO] (Minecraft) Player347加入了游戏
+[15:51:28] [Render thread/INFO] (Minecraft) Loaded 20 advancements
+[15:51:28] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 16.
+[15:51:28] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[15:51:29] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[15:51:29] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[15:51:29] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[15:51:29] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[15:51:30] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[15:51:51] [Server thread/INFO] (Minecraft) Player347取得了进度[成交！]
+[15:51:51] [Render thread/INFO] (Minecraft) [System] [CHAT] Player347取得了进度[成交！]
+[15:51:51] [Render thread/INFO] (Minecraft) Loaded 24 advancements
+[15:52:02] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[15:52:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:52:02] [Server thread/WARN] (Minecraft) [net.minecraft.world.level.chunk.storage.EntityStorage] Serialization errors:
+chunk@[2, 1]Villager['曲者'/7, l='ServerLevel[新的世界]', x=40.84, y=-50.00, z=18.16]: Failed to encode value '[net.minecraft.world.item.trading.MerchantOffer@53a5af59, net.minecraft.world.item.trading.MerchantOffer@5a33c91d, net.minecraft.world.item.trading.MerchantOffer@38ae6a01, net.minecraft.world.item.trading.MerchantOffer@33542e6b]' to field 'Offers': Item must not be minecraft:air; Item must not be minecraft:air; Item must not be minecraft:air
+[15:52:02] [Server thread/WARN] (Minecraft) [net.minecraft.world.level.chunk.storage.EntityStorage] Serialization errors:
+chunk@[3, 3]:
+  Villager['曲者'/14, l='ServerLevel[新的世界]', x=53.17, y=-50.00, z=55.83]: Failed to encode value '[net.minecraft.world.item.trading.MerchantOffer@25073f8a, net.minecraft.world.item.trading.MerchantOffer@598c2c6]' to field 'Offers': Item must not be minecraft:air; Item must not be minecraft:air
+  Villager['曲者'/15, l='ServerLevel[新的世界]', x=53.18, y=-49.00, z=54.53]: Failed to encode value '[net.minecraft.world.item.trading.MerchantOffer@68f1872f, net.minecraft.world.item.trading.MerchantOffer@4739df8a]' to field 'Offers': Item must not be minecraft:air
+[15:52:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:52:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/gzlf:xiyou
+[15:52:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:52:42] [Render thread/INFO] (Minecraft) Loaded 34 advancements
+[15:53:34] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[15:53:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:53:34] [Server thread/WARN] (Minecraft) [net.minecraft.world.level.chunk.storage.EntityStorage] Serialization errors:
+chunk@[2, 3]Villager['曲者'/15, l='ServerLevel[新的世界]', x=47.17, y=-50.00, z=56.47]: Failed to encode value '[net.minecraft.world.item.trading.MerchantOffer@68f1872f, net.minecraft.world.item.trading.MerchantOffer@4739df8a]' to field 'Offers': Item must not be minecraft:air
+[15:53:34] [Server thread/WARN] (Minecraft) [net.minecraft.world.level.chunk.storage.EntityStorage] Serialization errors:
+chunk@[2, 1]Villager['曲者'/7, l='ServerLevel[新的世界]', x=39.73, y=-49.00, z=20.23]: Failed to encode value '[net.minecraft.world.item.trading.MerchantOffer@53a5af59, net.minecraft.world.item.trading.MerchantOffer@5a33c91d, net.minecraft.world.item.trading.MerchantOffer@38ae6a01, net.minecraft.world.item.trading.MerchantOffer@33542e6b]' to field 'Offers': Item must not be minecraft:air; Item must not be minecraft:air; Item must not be minecraft:air
+[15:53:34] [Server thread/WARN] (Minecraft) [net.minecraft.world.level.chunk.storage.EntityStorage] Serialization errors:
+chunk@[3, 3]Villager['曲者'/14, l='ServerLevel[新的世界]', x=53.48, y=-50.00, z=55.80]: Failed to encode value '[net.minecraft.world.item.trading.MerchantOffer@25073f8a, net.minecraft.world.item.trading.MerchantOffer@598c2c6]' to field 'Offers': Item must not be minecraft:air; Item must not be minecraft:air
+[15:53:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:53:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/gzlf:xiyou
+[15:53:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:53:35] [Server thread/INFO] (Minecraft) Player347 lost connection: 连接中断
+[15:53:35] [Server thread/INFO] (Minecraft) Player347退出了游戏
+[15:53:35] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[15:53:35] [Server thread/INFO] (Minecraft) Stopping server
+[15:53:35] [Server thread/INFO] (Minecraft) Saving players
+[15:53:35] [Server thread/INFO] (Minecraft) Saving worlds
+[15:53:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[15:53:36] [Server thread/WARN] (Minecraft) [net.minecraft.world.level.chunk.storage.EntityStorage] Serialization errors:
+chunk@[2, 3]Villager['曲者'/15, l='ServerLevel[新的世界]', x=47.25, y=-50.00, z=56.47]: Failed to encode value '[net.minecraft.world.item.trading.MerchantOffer@68f1872f, net.minecraft.world.item.trading.MerchantOffer@4739df8a]' to field 'Offers': Item must not be minecraft:air
+[15:53:36] [Server thread/WARN] (Minecraft) [net.minecraft.world.level.chunk.storage.EntityStorage] Serialization errors:
+chunk@[2, 1]Villager['曲者'/7, l='ServerLevel[新的世界]', x=39.73, y=-49.00, z=20.23]: Failed to encode value '[net.minecraft.world.item.trading.MerchantOffer@53a5af59, net.minecraft.world.item.trading.MerchantOffer@5a33c91d, net.minecraft.world.item.trading.MerchantOffer@38ae6a01, net.minecraft.world.item.trading.MerchantOffer@33542e6b]' to field 'Offers': Item must not be minecraft:air; Item must not be minecraft:air; Item must not be minecraft:air
+[15:53:36] [Server thread/WARN] (Minecraft) [net.minecraft.world.level.chunk.storage.EntityStorage] Serialization errors:
+chunk@[3, 3]Villager['曲者'/14, l='ServerLevel[新的世界]', x=53.48, y=-50.00, z=55.80]: Failed to encode value '[net.minecraft.world.item.trading.MerchantOffer@25073f8a, net.minecraft.world.item.trading.MerchantOffer@598c2c6]' to field 'Offers': Item must not be minecraft:air; Item must not be minecraft:air
+[15:53:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[15:53:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/gzlf:xiyou
+[15:53:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[15:53:36] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (新的世界): All chunks are saved
+[15:53:36] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:53:36] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (xiyou): All chunks are saved
+[15:53:36] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:53:36] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[15:53:43] [Render thread/INFO] (Minecraft) Stopping!

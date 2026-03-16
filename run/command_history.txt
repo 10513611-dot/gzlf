@@ -1,0 +1,50 @@
+/gamemode
+/gamemode survival
+/effect give @a gzlf:shuitubufu
+/effect give @a gzlf:shuitubufu 3000 2
+/tp 7.65 88.38 6.47
+/gamemode creative
+/setblock ~ ~ ~
+/setblock ~ ~ ~ gzlf:ginsengleaves
+/gamemode survival
+/tp @e[type=minecraft:villager,limit=1]
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/time set noon
+/setblock -578 65 52 minecraft:nether_portal
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/effect give @s minecraft:regeneration infinite 3
+/gamemode creative
+/gamemode survival
+/locate structure minecraft:village_plains
+/tp @s -816 ~ -256
+/gamemode creative
+/locate structure minecraft:village_desert
+/tp @s -5264 ~ 4672
+/locate structure minecraft:village_plains
+/tp @s -7552 ~ 2336
+/kill
+/time set noon
+/kill @e[type=minecraft:item]
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give @s minecraft:golden_hoe 5
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/give @s minecraft:golden_hoe[] 5
+/enchant @a minecraft:unbreaking 2
+/enchant @a minecraft:unbreaking 0
+/enchant @a minecraft:unbreaking 3
+/enchant @a minecraft:unbreaking 4
+/gamemode survival
+/enchant @a minecraft:unbreaking 3
+/gamemode creative
+/tick rate 4000
+/tick rate 20
+/give @a gzlf:test

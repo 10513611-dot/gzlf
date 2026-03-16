@@ -1,0 +1,16 @@
+{
+  "_fv": 79,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "曲者",
+    "pointOfInterest": {
+      "value": "Blocks.JUKEBOX"
+    },
+    "actionSound": {
+      "value": "CUSTOM:composer"
+    },
+    "hat": "None",
+    "professionTextureFile": "composer.png",
+    "zombifiedProfessionTextureFile": "zombie_villager.png"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "9": "touch_base",
+        "fire": "minecraft:campfire_fire"
+      }
+    }
+  }
+}
