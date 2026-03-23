@@ -33,7 +33,7 @@ public class XyportalBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		EnterxiyouProcedure.execute(entity);
+		EnterxiyouProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

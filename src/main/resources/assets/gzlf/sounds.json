@@ -462,5 +462,109 @@
         "stream": false
       }
     ]
+  },
+  "htyth": {
+    "sounds": [
+      {
+        "name": "gzlf:htyth",
+        "stream": true
+      }
+    ]
+  },
+  "hzm": {
+    "sounds": [
+      {
+        "name": "gzlf:hzm",
+        "stream": true
+      }
+    ]
+  },
+  "uhhh": {
+    "sounds": [
+      {
+        "name": "gzlf:uhhh",
+        "stream": false
+      }
+    ]
+  },
+  "zsmbwy": {
+    "sounds": [
+      {
+        "name": "gzlf:zsmbwy",
+        "stream": false
+      }
+    ]
+  },
+  "shuijiao": {
+    "sounds": [
+      {
+        "name": "gzlf:shuijiao",
+        "stream": false
+      }
+    ]
+  },
+  "kgwg": {
+    "sounds": [
+      {
+        "name": "gzlf:kgwg",
+        "stream": false
+      }
+    ]
+  },
+  "heihei": {
+    "sounds": [
+      {
+        "name": "gzlf:heihei",
+        "stream": false
+      }
+    ]
+  },
+  "hahaha": {
+    "sounds": [
+      {
+        "name": "gzlf:hahaha",
+        "stream": false
+      }
+    ]
+  },
+  "goose": {
+    "sounds": [
+      {
+        "name": "gzlf:goose",
+        "stream": false
+      }
+    ]
+  },
+  "goose1": {
+    "sounds": [
+      {
+        "name": "gzlf:goose1",
+        "stream": false
+      }
+    ]
+  },
+  "aaaaa": {
+    "sounds": [
+      {
+        "name": "gzlf:aaaaa",
+        "stream": false
+      }
+    ]
+  },
+  "hwjdy": {
+    "sounds": [
+      {
+        "name": "gzlf:hwjdy",
+        "stream": false
+      }
+    ]
+  },
+  "taotaile": {
+    "sounds": [
+      {
+        "name": "gzlf:taotaile",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1,8 +1,11 @@
 package net.mcreator.gzlf.procedures;
 
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+
+import net.mcreator.gzlf.init.GzlfModMobEffects;
 
 public class StbfProcedure {
 	public static boolean eventResult = true;
@@ -10,7 +13,7 @@ public class StbfProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (isInWaterOrBubble(entity)) {
+		if (entity.isUnderWater()) {
 			if (entity.getAirSupply() > 0) {
 				entity.setAirSupply(0);
 			}
@@ -18,9 +21,10 @@ public class StbfProcedure {
 		if (entity instanceof Player _player) {
 			_player.causeFoodExhaustion((float) 0.05);
 		}
-	}
-
-	private static boolean isInWaterOrBubble(Entity entity) {
-		return entity.isInWater() || entity.getInBlockState().is(Blocks.BUBBLE_COLUMN);
+		if ((entity.level().dimension()) == Level.OVERWORLD) {
+			if (entity instanceof LivingEntity _entity) {
+				_entity.removeEffect(GzlfModMobEffects.SHUITUBUFU);
+			}
+		}
 	}
 }

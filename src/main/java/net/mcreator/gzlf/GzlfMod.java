@@ -50,6 +50,7 @@ public class GzlfMod implements ModInitializer {
 
 		GzlfModMobEffects.load();
 
+		GzlfModKeyMappingsServer.serverLoad();
 		tick();
 		// Start of user code block mod init
 		// End of user code block mod init

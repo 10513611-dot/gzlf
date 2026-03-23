@@ -1,0 +1,126 @@
+{
+  "_fv": 79,
+  "_type": "biome",
+  "definition": {
+    "name": "平顶山",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.GRAVEL"
+    },
+    "airColor": {
+      "value": -731720,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -133655,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -7490154,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13471355,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -9982557,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -198440,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "CUSTOM:music_disc_auag"
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "ASH"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 1.5,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "genHumidity": {
+      "min": -0.4,
+      "max": 0.4
+    },
+    "genContinentalness": {
+      "min": -0.1,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 0,
+    "minHeight": 7,
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "PlainsTallGrass"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": true,
+    "spawnPillagerOutpost": false,
+    "villageType": "savanna",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": []
+  }
+}

@@ -69,6 +69,19 @@ public class GzlfModSounds {
 	public static SoundEvent GZLF1;
 	public static SoundEvent GZLF2;
 	public static SoundEvent COMPOSER;
+	public static SoundEvent HTYTH;
+	public static SoundEvent HZM;
+	public static SoundEvent UHHH;
+	public static SoundEvent ZSMBWY;
+	public static SoundEvent SHUIJIAO;
+	public static SoundEvent KGWG;
+	public static SoundEvent HEIHEI;
+	public static SoundEvent HAHAHA;
+	public static SoundEvent GOOSE;
+	public static SoundEvent GOOSE1;
+	public static SoundEvent AAAAA;
+	public static SoundEvent HWJDY;
+	public static SoundEvent TAOTAILE;
 
 	public static void load() {
 		MUSIC_DISC_JLCJ = register("music_disc_jlcj", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "music_disc_jlcj")));
@@ -129,6 +142,19 @@ public class GzlfModSounds {
 		GZLF1 = register("gzlf1", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "gzlf1")));
 		GZLF2 = register("gzlf2", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "gzlf2")));
 		COMPOSER = register("composer", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "composer")));
+		HTYTH = register("htyth", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "htyth")));
+		HZM = register("hzm", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "hzm")));
+		UHHH = register("uhhh", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "uhhh")));
+		ZSMBWY = register("zsmbwy", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "zsmbwy")));
+		SHUIJIAO = register("shuijiao", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "shuijiao")));
+		KGWG = register("kgwg", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "kgwg")));
+		HEIHEI = register("heihei", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "heihei")));
+		HAHAHA = register("hahaha", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "hahaha")));
+		GOOSE = register("goose", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "goose")));
+		GOOSE1 = register("goose1", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "goose1")));
+		AAAAA = register("aaaaa", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "aaaaa")));
+		HWJDY = register("hwjdy", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "hwjdy")));
+		TAOTAILE = register("taotaile", SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("gzlf", "taotaile")));
 	}
 
 	private static SoundEvent register(String registryname, SoundEvent element) {

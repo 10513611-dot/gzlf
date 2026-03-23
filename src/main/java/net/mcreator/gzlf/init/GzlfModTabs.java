@@ -97,9 +97,21 @@ public class GzlfModTabs {
 					tabData.accept(GzlfModItems.JBYARMOR_LEGGINGS);
 					tabData.accept(GzlfModItems.JBYARMOR_BOOTS);
 					tabData.accept(GzlfModItems.CHAMELEON_SPAWN_EGG);
+					tabData.accept(GzlfModItems.SHUIJIAO_SPAWN_EGG);
+					tabData.accept(GzlfModItems.QINGLONG_SPAWN_EGG);
+					tabData.accept(GzlfModItems.GOOSE_SPAWN_EGG);
+					tabData.accept(GzlfModItems.SEVENSTARSSWORD);
+					tabData.accept(GzlfModItems.CAMBRIANFISH_SPAWN_EGG);
+					tabData.accept(GzlfModItems.CAMBRIANFISHBUCKET);
+					tabData.accept(GzlfModItems.BAIGUJING_SPAWN_EGG);
 				}).build());
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.SPAWN_EGGS).register(tabData -> {
 			tabData.accept(GzlfModItems.CHAMELEON_SPAWN_EGG);
+			tabData.accept(GzlfModItems.SHUIJIAO_SPAWN_EGG);
+			tabData.accept(GzlfModItems.QINGLONG_SPAWN_EGG);
+			tabData.accept(GzlfModItems.GOOSE_SPAWN_EGG);
+			tabData.accept(GzlfModItems.CAMBRIANFISH_SPAWN_EGG);
+			tabData.accept(GzlfModItems.BAIGUJING_SPAWN_EGG);
 		});
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(tabData -> {
 			tabData.accept(GzlfModItems.JBYARMOR_HELMET);
@@ -110,6 +122,7 @@ public class GzlfModTabs {
 			tabData.accept(GzlfModItems.SILVERARMOR_CHESTPLATE);
 			tabData.accept(GzlfModItems.SILVERARMOR_LEGGINGS);
 			tabData.accept(GzlfModItems.SILVERARMOR_BOOTS);
+			tabData.accept(GzlfModItems.SEVENSTARSSWORD);
 		});
 	}
 }

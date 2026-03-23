@@ -1,6 +1,7 @@
 package net.mcreator.gzlf;
 
 import net.mcreator.gzlf.init.GzlfModModels;
+import net.mcreator.gzlf.init.GzlfModKeyMappings;
 import net.mcreator.gzlf.init.GzlfModEntityRenderers;
 import net.mcreator.gzlf.init.GzlfModBlocksRenderers;
 import net.mcreator.gzlf.init.GzlfModArmorModels;
@@ -21,6 +22,7 @@ public class GzlfModClient implements ClientModInitializer {
 
 		GzlfModEntityRenderers.clientLoad();
 
+		GzlfModKeyMappings.clientLoad();
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

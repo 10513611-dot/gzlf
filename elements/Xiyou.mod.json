@@ -4,25 +4,28 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "stony_peaks"
+        "value": "CUSTOM:Auagbadlands"
       },
       {
-        "value": "jagged_peaks"
+        "value": "CUSTOM:Dreamocean"
       },
       {
-        "value": "frozen_peaks"
+        "value": "CUSTOM:Htytocean"
       },
       {
-        "value": "warm_ocean"
+        "value": "plains"
       },
       {
-        "value": "deep_lukewarm_ocean"
+        "value": "CUSTOM:Blackwindmount"
       },
       {
-        "value": "basalt_deltas"
+        "value": "CUSTOM:Baihumount"
       },
       {
-        "value": "badlands"
+        "value": "beaches"
+      },
+      {
+        "value": "CUSTOM:Xksjwdd"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -35,8 +38,8 @@
     "seaLevel": 63,
     "generateOreVeins": true,
     "generateAquifers": true,
-    "horizontalNoiseSize": 1,
-    "verticalNoiseSize": 4,
+    "horizontalNoiseSize": 4,
+    "verticalNoiseSize": 1,
     "defaultEffects": "overworld",
     "useCustomEffects": true,
     "hasClouds": true,
@@ -48,7 +51,7 @@
     },
     "sunHeightAffectsFog": true,
     "canRespawnHere": true,
-    "hasFog": true,
+    "hasFog": false,
     "ambientLight": 0.0,
     "doesWaterVaporize": false,
     "hasFixedTime": false,

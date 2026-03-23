@@ -143,22 +143,13 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "TAG:stone_ore_replaceables"
-      },
-      {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.COPPER_ORE"
-      },
-      {
-        "value": "Blocks.COAL_ORE"
+        "value": "Blocks.DEEPSLATE"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 13,
     "minGenerateHeight": -64,
-    "maxGenerateHeight": 0
+    "maxGenerateHeight": 12
   }
 }

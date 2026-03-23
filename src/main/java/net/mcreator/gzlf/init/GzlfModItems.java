@@ -93,6 +93,13 @@ public class GzlfModItems {
 	public static Item SILVERARMOR_CHESTPLATE;
 	public static Item SILVERARMOR_LEGGINGS;
 	public static Item SILVERARMOR_BOOTS;
+	public static Item SHUIJIAO_SPAWN_EGG;
+	public static Item QINGLONG_SPAWN_EGG;
+	public static Item GOOSE_SPAWN_EGG;
+	public static Item SEVENSTARSSWORD;
+	public static Item CAMBRIANFISH_SPAWN_EGG;
+	public static Item CAMBRIANFISHBUCKET;
+	public static Item BAIGUJING_SPAWN_EGG;
 
 	public static void load() {
 		ZEPHYRBLOCK = block(GzlfModBlocks.ZEPHYRBLOCK, "zephyrblock");
@@ -169,6 +176,13 @@ public class GzlfModItems {
 		SILVERARMOR_CHESTPLATE = register("silverarmor_chestplate", SilverarmorItem.Chestplate::new);
 		SILVERARMOR_LEGGINGS = register("silverarmor_leggings", SilverarmorItem.Leggings::new);
 		SILVERARMOR_BOOTS = register("silverarmor_boots", SilverarmorItem.Boots::new);
+		SHUIJIAO_SPAWN_EGG = register("shuijiao_spawn_egg", properties -> new SpawnEggItem(GzlfModEntities.SHUIJIAO, properties));
+		QINGLONG_SPAWN_EGG = register("qinglong_spawn_egg", properties -> new SpawnEggItem(GzlfModEntities.QINGLONG, properties));
+		GOOSE_SPAWN_EGG = register("goose_spawn_egg", properties -> new SpawnEggItem(GzlfModEntities.GOOSE, properties));
+		SEVENSTARSSWORD = register("sevenstarssword", SevenstarsswordItem::new);
+		CAMBRIANFISH_SPAWN_EGG = register("cambrianfish_spawn_egg", properties -> new SpawnEggItem(GzlfModEntities.CAMBRIANFISH, properties));
+		CAMBRIANFISHBUCKET = register("cambrianfishbucket", CambrianfishbucketItem::new);
+		BAIGUJING_SPAWN_EGG = register("baigujing_spawn_egg", properties -> new SpawnEggItem(GzlfModEntities.BAIGUJING, properties));
 	}
 
 	// Start of user code block custom items

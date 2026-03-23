@@ -1,0 +1,118 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.1,
+  "downfall": 0.5,
+  "effects": {
+    "ambient_sound": "gzlf:music_disc_baigu",
+    "foliage_color": -5380693,
+    "grass_color": -12409007,
+    "sky_color": -3088927,
+    "fog_color": -3878701,
+    "water_color": -5841189,
+    "water_fog_color": -8135987
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "skeleton",
+        "weight": 100,
+        "minCount": 7,
+        "maxCount": 10
+      },
+      {
+        "type": "bogged",
+        "weight": 50,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "stray",
+        "weight": 100,
+        "minCount": 6,
+        "maxCount": 8
+      },
+      {
+        "type": "wither_skeleton",
+        "weight": 20,
+        "minCount": 3,
+        "maxCount": 3
+      },
+      {
+        "type": "skeleton_horse",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [],
+    "ambient": [
+      {
+      "type": "minecraft:bat",
+      "maxCount": 8,
+      "minCount": 8,
+      "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:pale_moss_patch",
+      "minecraft:pale_garden_flowers",
+      "minecraft:flower_pale_garden",
+      "gzlf:baihumount_tree",
+      "minecraft:patch_grass_forest"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

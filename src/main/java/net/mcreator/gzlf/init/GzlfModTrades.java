@@ -29,7 +29,7 @@ public class GzlfModTrades {
 	public static void registerTrades() {
 		TradeOfferHelper.registerVillagerOffers(ResourceKey.create(Registries.VILLAGER_PROFESSION, ResourceLocation.parse("gzlf:composer")), 1, builder -> {
 			builder.add(new BasicTrade(new ItemStack(GzlfModItems.SILVERINGOT, 40), new ItemStack(Blocks.DANDELION, 32), new ItemStack(GzlfModItems.MUSICDISCPGY), 5, 4, 0.05f));
-			builder.add(new BasicTrade(new ItemStack(GzlfModItems.CASH, 5), ItemStack.EMPTY,  new ItemStack(GzlfModItems.MUSICDISCHNCGM), 5, 4, 0.05f));
+			builder.add(new BasicTrade(new ItemStack(GzlfModItems.CASH, 5), ItemStack.EMPTY, new ItemStack(GzlfModItems.MUSICDISCHNCGM), 5, 4, 0.05f));
 			builder.add(new BasicTrade(new ItemStack(Items.EMERALD), ItemStack.EMPTY, new ItemStack(GzlfModItems.SILVERINGOT, 5), 10, 2, 0.05f));
 			builder.add(new BasicTrade(new ItemStack(Items.PAPER, 3), ItemStack.EMPTY, new ItemStack(GzlfModItems.SILVERINGOT), 20, 1, 0.05f));
 		});
@@ -53,16 +53,7 @@ public class GzlfModTrades {
 		});
 	}
 
-	private record BasicTrade(
-			ItemStack price,
-			ItemStack price2,
-			ItemStack offer,
-			int maxTrades,
-			int xp,
-			float priceMult
-	)
-
-			implements VillagerTrades.ItemListing {
+	private record BasicTrade(ItemStack price, ItemStack price2, ItemStack offer, int maxTrades, int xp, float priceMult) implements VillagerTrades.ItemListing {
 		@Override
 		public @NotNull MerchantOffer getOffer(Entity entity, RandomSource random) {
 			return new MerchantOffer(new ItemCost(price.getItem()), Optional.of(new ItemCost(price2.getItem())), offer, maxTrades, xp, priceMult);
